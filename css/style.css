@@ -1,0 +1,127 @@
+a h1{
+    font-size: 2em;
+    color: darkorange;
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: none;
+}
+
+body{
+    margin: 0 5%;
+}
+
+h4{
+    color: darkorange;
+}
+
+ul li{
+    list-style-type: square;
+}
+
+.carousel-caption{
+    top: 50%;
+    transform: translateY(-50%);
+    bottom: initial;
+}
+
+.carousel .carousel-item img {
+    max-height: 850px;
+    min-width: auto;
+}
+
+.carousel-item{
+    -webkit-transform-style: preserve-3d;
+    -moz-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+}
+
+.contactus-button{
+    font-weight: bold;
+    font-size: 1.3em;
+    background-color: darkorange;
+    color: white;
+    border-color: maroon;
+    border-radius: 5px;
+}
+
+.contactus-button:hover{
+    background-color: black;
+    cursor: pointer;
+}
+
+.iconos-principal{
+    background-color: #0087ff;
+}
+
+.modal-btns{
+    font-weight: bold;
+    background-color: darkorange;
+    color: white;
+    border-color: maroon;
+}
+
+.read-button{
+    margin: 0 16px 16px 0;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: 1;
+    font-size: 1em;
+    font-weight: bold;
+    background-color: orange;
+    color: maroon;
+    border-color: maroon;
+    border-radius: 5px;
+}
+
+.read-button:hover{
+    background-color: yellow;
+    cursor: pointer;
+}
+
+.text-carousel{
+    color: gray;
+    font-size: 4em;
+    text-shadow: 2px 1px black;
+}
+
+.top-30{
+    max-width: 100%;
+    margin-top: 30px;
+}
+
+@media only screen and (max-width: 1000px) {
+    .read-button{
+        font-size: 0.8em;
+    }
+}
+
+@media only screen and (max-width: 769px) {
+    .text-carousel{
+        font-size: 3em;
+    }
+    .read-button{
+        font-size: 0.5em;
+    }
+    
+}
+
+@media only screen and (max-width: 415px) {
+    .text-carousel{
+        font-size: 2em;
+    }
+    .read-button{
+        font-size: 0.5em;
+    }
+}
+
+@media only screen and (max-width: 320px) {
+    .text-carousel{
+        font-size: 1em;
+    }
+    .read-button{
+        font-size: 0.1em;
+    }
+}
